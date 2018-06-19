@@ -19,6 +19,7 @@ body {
 }
 .navbar a:hover {
 	background-color: #E0E0E0;
+	border-radius: 3px, 3px, 0px, 0px;
 	color: #000000;
 }
 #mainTab {

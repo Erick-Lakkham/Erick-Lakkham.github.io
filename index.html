@@ -7,8 +7,17 @@
       text-decoration: none;
     }
   </style>
+  <script>
+    function submit () {
+      document.getElementById ("in").value = "Enter the password to get the flag";
+      document.getElementById ("out").innerHTML = "Incorrect password!";
+    }
+  </script>
 </head>
   <body>
+    <input id="in" value="Enter the password to get the flag"></input>
+    <button onclick="submit ()">Submit</button>
+    <p id="out"></p>
     <a href="flag" download>.</a>
   </body>
 </html>

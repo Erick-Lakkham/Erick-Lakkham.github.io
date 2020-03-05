@@ -58,3 +58,7 @@ body {
 .dropdown:hover .dropdowncontent {
   display: block;
 }
+
+p {
+  margin: 0px 33vw 0px 33vw;
+}

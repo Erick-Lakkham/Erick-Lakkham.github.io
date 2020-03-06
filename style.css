@@ -60,5 +60,10 @@ body {
 }
 
 p {
-  margin: 0px 33vw 0px 33vw;
+  width: 33vw;
+  margin: auto;
+}
+
+img {
+  width: 10vw;
 }
